@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:400,500,700')
+
+$roboto-slab: 'Roboto Slab', Helvetica, sans-serif
+$roboto: Roboto, Helvetica, sans-serif
+$primary-color: #333
+$blue: #38bcdb
+$blue-hover: #2e91a3
+$grey: #a9aaab
+$light-grey: #dcdcdc
+$mainPadding: 9rem
+$maxWidth: 117rem
+
+html 
+  font-size: 10px
+
+body
+  color: $primary-color
+
+a
+  color: $blue
+  &:hover
+    color: $blue-hover
+
+.container
+  margin: auto
+  max-width: $maxWidth
+
+.header
+  background-color: $primary-color
+  margin-bottom: 1.5rem
+
+.inner-header
+  align-items: center
+  display: flex
+  justify-content: space-between
+  p 
+    color: white
