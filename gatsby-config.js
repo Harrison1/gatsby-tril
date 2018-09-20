@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Trilogy Education Services',
   },
+  pathPrefix: `/gatsby-tril`,
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',

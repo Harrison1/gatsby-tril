@@ -1,5 +1,7 @@
 # Triliogy Made in GatsbyJS
 
+[DEMO](https://harrison1.github.io/gatsby-tril/)
+
 ```
 npm install
 
